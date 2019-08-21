@@ -7,5 +7,5 @@ CREATE TABLE `board` (
   PRIMARY KEY (`num`)
 );
 
-INSERT INTO `board` VALUES (1,'MySQL','MySQL is...','ch', now());
+INSERT INTO `board` VALUES (1,'MySQL','MySQL is...','ch', date_format(now(),'yy-mm-dd'));
 INSERT INTO `board` VALUES (2,'Oracle','Oracle is ...','lail', now());
