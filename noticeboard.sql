@@ -4,7 +4,7 @@ CREATE TABLE `board` (
   `description` text,
   `author` varchar(15) not NULL,
   `created` datetime NOT NULL,
-  'count' int(11) not null,
+  `count` int(11) not null,
   PRIMARY KEY (`num`)
 );
 
